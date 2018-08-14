@@ -1,0 +1,9 @@
+# default values for blocks
+default height:25 width:50 stroke:(black)
+
+# block definitions
+bdef symbol:z hit_points:3 fill:image(block_images/pokemonIcon.jpg) fill-2:image(block_images/pichacho.jpg) fill-3:color(yellow)
+bdef symbol:l hit_points:2 fill:image(block_images/pokemonIcon.jpg) fill-2:image(block_images/pichacho.jpg)
+
+# spacers definitions
+sdef symbol:- width:50

@@ -1,0 +1,79 @@
+
+# Level 1
+# Single block direct hit
+
+
+START_LEVEL
+level_name:Sky full of stars
+ball_velocities:0,500
+background:image(background_images/skyFullOfStarts.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/mine_first_block_defenitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:100
+num_blocks:4
+START_BLOCKS
+--l----l--
+------l----l--
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+
+START_LEVEL
+level_name:Pokemon
+ball_velocities:45,550 -45,550 -30,550 30,550
+background:image(background_images/pokemon.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/mine_third_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:26
+START_BLOCKS
+-
+-
+-
+-lllllllllllll--
+-zzzzzzzzzzzzz--
+END_BLOCKS
+END_LEVEL
+
+
+
+# Level 3
+# Wide paddle with many balls
+
+START_LEVEL
+level_name: Colorful
+ball_velocities:-60,500 -45,500 -30,500 -15,500 15,500 30,500 45,500 60,500
+background:image(background_images/congrads.jpg)
+paddle_speed:500
+paddle_width:300
+block_definitions:definitions/mine_second_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:117
+
+START_BLOCKS
+-ttttttttttttt
+-tabcdefghijkt
+-tbcdefghijkat
+-tcdefghijkabt
+-tdefghijkabct
+-tefghijkabcdt
+-tfghijkabcdet
+-tghijkabcdeft
+-ttttttttttttt
+
+END_BLOCKS
+END_LEVEL
+
+
+
+
